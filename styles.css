@@ -8,10 +8,25 @@ body {
 
 
 
-h3 {
+.subject-types {
     background: orange;
     padding: 10px;
+    margin: 20px 0px;
+    overflow: hidden;
 }
+
+.subject-types h3 {
+  display: inline;
+}
+
+.subject-types button {
+  float: right;
+  border: 0;
+  font-size: 1.7rem;
+  background: inherit;
+  padding: 0px;
+}
+
 
 .menu-tile {
     height: 250px;
