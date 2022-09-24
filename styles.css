@@ -19,7 +19,7 @@ body {
   display: inline;
 }
 
-.subject-types button {
+.subject-types .button {
   float: right;
   border: 0;
   font-size: 1.7rem;
@@ -56,7 +56,7 @@ body {
     opacity: .8;
   }
 
-  #home-tiles {
+  #core-tiles, #maths-tiles {
     padding-bottom: 50px;
   }
 

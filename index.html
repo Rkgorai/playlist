@@ -21,9 +21,10 @@
     <div class="container">
         <div class="subject-types">
             <h3>Core Subjects: </h3>
-            <button>+</button>
+            <input type=button class="button" name=type id='bt1' value='-' onclick="setVisibility('core-tiles', 'bt1');"
+                ;>
         </div>
-        <div id="home-tiles" class="row">
+        <div id="core-tiles" class="row">
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <a href="https://www.youtube.com/playlist?list=PLnPUHuqVn2sd65OHiaQ1VWH0oHAJYs83w">
                     <div class="menu-tile"><span>TOC by Sanchit Jain</span></div>
@@ -94,10 +95,11 @@
         <hr>
         <div class="subject-types">
             <h3>Engineering Mathematics & Aptitude: </h3>
-            <button>+</button>
+            <input type=button class="button" name=type id='bt2' value='-' onclick="setVisibility('maths-tiles','bt2');"
+                ;>
         </div>
 
-        <div id="home-tiles" class="row">
+        <div id="maths-tiles" class="row">
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <a href="https://www.youtube.com/playlist?list=PLa1oHkkHwWxoOwDRlex2G3pWASKEogwRe">
                     <div class="menu-tile"><span>Linear Algebra by Shrenik Jain</span></div>
